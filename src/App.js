@@ -20,15 +20,5 @@ const App = (props) => {
     );
 
 }
-let contador = 0
-const refrescar = ()=>{
-const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(
-   <App propiedadDesdeIndex = {contador} />
-    );}
 
-setInterval (() => {
-contador ++
-refrescar()
-}, 2000)
 export default App;
