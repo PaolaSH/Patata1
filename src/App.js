@@ -1,11 +1,10 @@
 
 import './App.css';
-import Contador from './componentes/Ccontador'
+
 import Jsx from './componentes/Jsx';
 import Holas from './componentes/Hola';
-import ReactDOM from 'react-dom/client';
-
-
+import Boton from './ejercicio';
+import Tarea from './componentes/eje1';
 const App = (props) => {
 
   return (
@@ -13,9 +12,12 @@ const App = (props) => {
      <Jsx color="red"  />
      <Jsx color ="yellow" />
      <Jsx color="blue" />
-     <Contador /> 
+    
      <Holas color='yellow' />
      <h1>{props.propiedadDesdeIndex}</h1>
+     <Tarea />
+
+     <Boton />
   </div>
     );
 

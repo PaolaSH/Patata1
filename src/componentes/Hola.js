@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Contador from "./Ccontador";
+
 import Props1 from "./Props";
 
 
